@@ -1,0 +1,10 @@
+/* display images on one line */
+body {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	img {
+		width: 124px;
+		height: 186px;   
+	}
+}

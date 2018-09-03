@@ -1,0 +1,30 @@
+/* corners */
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+}
+
+ul.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  li {
+    display: flex;
+    flex: 50%;
+  }
+  li:nth-child(3),
+  li:nth-child(4) {
+    justify-content: flex-end;
+  }
+  li:nth-child(2),
+  li:nth-child(4) {
+    span {
+      align-self: flex-end;
+    }
+  }
+}
+

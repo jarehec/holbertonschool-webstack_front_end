@@ -1,0 +1,26 @@
+/* boxes */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 100%;
+  flex-wrap: wrap;
+  .box1 {
+    background-color: #ff0000;
+    width: 100%;
+  }
+  .box2 {
+    background-color: #00ff00;
+    width: 33%;
+  }
+  .box3 {
+    width: 67%;
+    background-color: #0000ff;
+  }
+}

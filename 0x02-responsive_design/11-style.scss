@@ -1,0 +1,25 @@
+/* responsive boxes */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  display: flex;
+  li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #ff0000;
+    height: 200px;
+    span {
+      align-self: center;
+    }
+  }
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+

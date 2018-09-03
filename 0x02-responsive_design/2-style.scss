@@ -1,0 +1,10 @@
+/* changes the background color */
+body {
+  background-color: #FF0000;
+  @media (max-width: 900px) {
+    background-color: #00FF00;
+  }
+  @media (max-width: 500px) {
+    background-color: #0000FF;
+  }
+}
